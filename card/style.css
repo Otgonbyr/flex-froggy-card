@@ -1,0 +1,44 @@
+*{
+	text-decoration: none;
+}
+body{
+    background-color:plum;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Container{
+    background-color: aquamarine;
+    width: 250px;
+    height: 65vh;
+    padding: 20px;
+	margin: 10px;
+}
+.Container img{
+    width: 10vw;
+    border-radius: 40%;
+}
+.Container:first-child{
+    background-color:palevioletred;
+}
+.Container:nth-child(3){
+	background-color: blue;
+}
+
+.Container:last-child{
+	background-color: purple;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.ReadMore{
+	display: flex;
+    justify-content: end;
+}
+.ReadMore a{
+    color: orange;
+    background-color: powderblue;
+    padding: 5px;
+	border-radius: 5px;
+}

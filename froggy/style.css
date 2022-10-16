@@ -1,0 +1,29 @@
+body{
+    background-color: darkblue;
+}
+.Container{
+    background-color: rgb(67, 40, 223);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box{
+    width: 16vw;
+    height: 30vh;
+    background-color: orchid;
+    margin: 30px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.box:nth-child(3n-2) {
+    background: green;
+}
+.box:nth-child(3n-1) {
+    background: yellow;
+}
+.box:nth-child(3n-0) {
+    background: red;
+}
